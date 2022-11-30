@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#button{
+        --tw-bg-opacity: 1;
+        background-color: rgb(82 82 82 / var(--tw-bg-opacity));
+        padding-left: 0.25rem/* 4px */;
+    padding-right: 0.25rem/* 4px */;
+    color: rgb(148 163 184 / var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+}
